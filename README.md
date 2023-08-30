@@ -5,7 +5,7 @@ En la terminal:
  json-server --watch db.json
 ```
 
-## Levantar proyecto en puerto 5000:
+## Levantar proyecto en puerto 5000
 
 En otra terminal:
 ```
