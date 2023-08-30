@@ -1,0 +1,74 @@
+:root {
+  --bg-light: rgb(245, 245, 245);
+  --primary: rgb(194, 114, 197);
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Poppins';
+}
+
+.navbar{
+  background-color: var(--bg-light);
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar span{
+  margin-bottom: 0px;
+  margin-left: 2rem;
+  color: var(--primary);
+}
+
+.board-column{
+  background-color: var(--bg-light) !important;
+  padding: 0 0.5rem;
+}
+
+.card-title{
+  color: var(--primary) !important;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+}
+
+.item .item-content{
+  padding: 0.5rem;
+}
+
+.edit-btn{
+  padding: 0 1rem;
+  border: none;
+  background-color: transparent;
+  color: var(--primary);
+  margin-left: 0.5rem;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+}
+
+.edit-btn:hover{
+  background: var(--primary);
+  color: white;
+  border-radius: 5px;
+}
+
+.icon{
+  display: grid;
+  place-items: center;
+}
+
+.new-form{
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.new-btn{
+  margin-right: 0.5rem;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0 1rem;
+}

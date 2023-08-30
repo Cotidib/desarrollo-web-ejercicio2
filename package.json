@@ -1,0 +1,11 @@
+{
+  "name": "desarrollo-web-ejercicio2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
